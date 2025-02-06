@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+.img1 {
+    background-image: url('https://image.posttoday.com/media/content/2016/06/26/644D3DA733584FD38F852941B153A902.jpg?x-image-process=style/lg');
+}
+
+.img2 {
+    background-image: url('https://assets.beartai.com/uploads/2023/06/water-gargling.jpg');
+}
+
+.content {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 1.5rem;
+}
